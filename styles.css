@@ -1,32 +1,36 @@
-.sidebar {
-	height: 100%;
-	width: 200px;
-	position: fixed;
-	z-index: 1;
-	top: 0;
-	left: 0;
-	background-color: #111;
-	overflow-x: hidden;
-	padding-top: 20px;
+.background-image
+{
+	background-image: url("temp_logo.png");
+	min-height: 400px;
+	
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+	position: relative;
 }
 
-.sidebar a {
-	padding: 6px 8px 6px 16px;
+.container {
+	position: absolute;
+	margin: 20px;
+	width: auto;
+}
+
+.topnav {
+	overflow: hidden;
+	background-color: #333;
+}
+
+.topnav a {
+	float: left;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
 	text-decoration: none;
-	font-size: 25px;
-	color: #818181;
-	display: block;
+	font-size: 17px;
 }
 
-.sidebar a:hover {
-	color: #f1f1f1;
+.topnav a:hover {
+	background-color: #ddd;
+	color: black;
 }
-
-.main {
-	margin-left: 200px;
-	padding: 0px 10px;
-}
-
-@media screen and (max-height: 450) {
-	.sidebar {padding-top: 19px;}
-	.sidebar a {font-size: 18px;}
