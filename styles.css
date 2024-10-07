@@ -1,6 +1,6 @@
 .sidebar {
 	height: 100%;
-	width: 170px;
+	width: 200px;
 	position: fixed;
 	z-index: 1;
 	top: 0;
@@ -23,10 +23,10 @@
 }
 
 .main {
-	margin-left: 170px;
+	margin-left: 200px;
 	padding: 0px 10px;
 }
 
 @media screen and (max-height: 450) {
-	.sidebar {padding-top: 16px;}
+	.sidebar {padding-top: 19px;}
 	.sidebar a {font-size: 18px;}
